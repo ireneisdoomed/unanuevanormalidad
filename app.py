@@ -9,13 +9,25 @@ st.image(header, width=800, format="PNG",  use_column_width=True)
 st.header("¿Cuál es tu código postal?")
 code = st.text_input("Inserta aquí tu código postal.")
 
-if len(code) > 0:
-    st.write("El código que has solicitado es", code, ".")
-    result = query(code)
-    if result == "1":
+if len(code) == 5:
+    fase, territory = query(code)
+    st.write(f"El código {code} corresponde a {territory}.")
+    if fase == "1":
         info = open('src/fase0.md', 'r')
         st.markdown(info.read())
 
-    elif result == "0":
-        st.write("Ánimo! Tu fase", result)
+    elif fase == "0":
+        info = open("src/fase0.md", "r")
+        st.markdown(info.read())
     
+elif len(code) != 0 and len(code) != 5:
+    st.write("El código debe ser de 5 dígitos. Por favor, vuelve a intentarlo.")
+
+
+
+st.markdown("""
+        
+
+        Wrote with 🧡 by [Irene López](https://github.com/ireneisdoomed).
+
+        """)
