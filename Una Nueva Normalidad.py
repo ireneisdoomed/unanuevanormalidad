@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 from src.query import query
 
+
 header = Image.open("images/header.png")
 
 st.image(header, width=800, format="PNG",  use_column_width=True)

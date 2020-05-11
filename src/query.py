@@ -1,12 +1,11 @@
 from pymongo import MongoClient
+from src.login import username, pssw
 
-client = MongoClient("mongodb://localhost/unanuevanormalidad")
+client = MongoClient(f"mongodb+srv://{username}:{pssw}@unanuevanormalidad-xvinr.mongodb.net/unanuevanormalidad")
 db = client.get_database()
-
 
 def query(zipcode):
     q = list((db["data"].find({"$and": [{"CP": zipcode[:2]}, {"Excepcion": False}]})))
-
     # Provinces without exceptions
     if len(q) > 0:
         fase = q[0]["Fase"]
@@ -27,4 +26,4 @@ def query(zipcode):
             fase = "0"
             territory = q3[0]["Provincia"]
             return fase, territory
-    
+
