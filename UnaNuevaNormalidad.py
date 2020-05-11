@@ -9,7 +9,7 @@ st.image(header, width=800, format="PNG",  use_column_width=True)
 
 st.header("¿Cuál es tu código postal?")
 code = st.text_input("Inserta aquí tu código postal.")
-
+"""
 if len(code) == 5:
     try:
         fase, territory = query(code)
@@ -28,7 +28,7 @@ if len(code) == 5:
 elif len(code) != 0 and len(code) != 5:
     st.write("El código debe ser de 5 dígitos. Por favor, vuelve a intentarlo.")
 
-
+"""
 
 st.markdown("""
         
