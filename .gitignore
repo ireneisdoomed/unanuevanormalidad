@@ -1,3 +1,7 @@
 data
 .ipynb_checkpoints
 src/Queries.ipynb
+images/header.png
+src/__pycache__/
+src/fase0.md
+src/fase1.md

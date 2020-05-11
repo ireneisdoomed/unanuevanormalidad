@@ -8,8 +8,8 @@ def query(zipcode):
 
     if len(q) > 0:
         result = q[0]["Fase"]
-        print(result)
-        return result
+        territory = q[0]["Provincia"]
+        return result, territory
     else:
         q2 = list((db["data"].find({"$and": [{"CP": zipcode[:2]}, {"Excepcion": {"$ne": False}}]},
                             {"Excepcion":1, "_id":0})))
@@ -19,6 +19,5 @@ def query(zipcode):
             return result
         else:
             result = q2[0]["Excepcion"][zipcode]["Fase"]
-            print(result)
-            return result
-
+            territory = q2[0]["Excepcion"][zipcode]["Territorio"]
+            return result, territory
