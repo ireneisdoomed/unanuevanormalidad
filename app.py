@@ -13,11 +13,11 @@ if len(code) == 5:
     fase, territory = query(code)
     st.write(f"El código {code} corresponde a {territory}.")
     if fase == "1":
-        info = open('src/fase0.md', 'r')
+        info = open('data/fase1.md', 'r')
         st.markdown(info.read())
 
     elif fase == "0":
-        info = open("src/fase0.md", "r")
+        info = open("data/fase0.md", "r")
         st.markdown(info.read())
     
 elif len(code) != 0 and len(code) != 5:
