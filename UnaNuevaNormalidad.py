@@ -14,8 +14,6 @@ if len(code) == 5:
     try:
         fase, territory = query(code)
         st.write(f"El código {code} corresponde a {territory}.")
-        print(fase)
-        print(territory)
 
         if str(fase) == "1":
             info = open('data/fase1.md', 'r')
