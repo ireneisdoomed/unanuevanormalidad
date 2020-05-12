@@ -7,7 +7,8 @@ load_dotenv()
 username = os.getenv("username")
 pssw = os.getenv("pssw")
 
-client = MongoClient(f"mongodb+srv://{username}:{pssw}@unanuevanormalidad-xvinr.mongodb.net/unanuevanormalidad")
+client = MongoClient(f"mongodb+srv://{username}:{pssw}@cluster0-bovas.mongodb.net/unanuevanormalidad")
+
 db = client.get_database()
 
 def query(zipcode):
@@ -32,4 +33,3 @@ def query(zipcode):
             fase = "0"
             territory = q3[0]["Provincia"]
             return fase, territory
-
