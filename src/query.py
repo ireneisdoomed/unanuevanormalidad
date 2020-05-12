@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv 
 import os
 
-dotenv.load_dotenv()
+load_dotenv()
 
 username = os.getenv("username")
 pssw = os.getenv("pssw")
