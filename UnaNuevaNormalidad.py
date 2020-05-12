@@ -14,6 +14,8 @@ if len(code) == 5:
     try:
         fase, territory = query(code)
         st.write(f"El código {code} corresponde a {territory}.")
+        print(fase)
+        print(territory)
 
         if str(fase) == "1":
             info = open('data/fase1.md', 'r')
@@ -22,8 +24,8 @@ if len(code) == 5:
         elif str(fase) == "0":
             info = open("data/fase0.md", "r")
             st.markdown(info.read())
-    except Exception:
-        print(Exception)
+    except Exception as e:
+        print(e)
         st.write("🚫 Este código postal no es válido. Por favor, vuelve a intentarlo.")
     
 elif len(code) != 0 and len(code) != 5:
