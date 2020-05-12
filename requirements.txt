@@ -1,3 +1,4 @@
 pymongo==3.10.1
 streamlit==0.57.3
 Pillow==7.1.2
+python-dotenv==0.13.0
