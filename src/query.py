@@ -1,5 +1,11 @@
 from pymongo import MongoClient
-import dotenv dotenv.load_dotenv()
+from dotenv import load_dotenv 
+import os
+
+dotenv.load_dotenv()
+
+username = os.getenv("username")
+pssw = os.getenv("pssw")
 
 client = MongoClient(f"mongodb+srv://{username}:{pssw}@unanuevanormalidad-xvinr.mongodb.net/unanuevanormalidad")
 db = client.get_database()
