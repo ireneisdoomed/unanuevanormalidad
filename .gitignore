@@ -1,6 +1,5 @@
 data
 .ipynb_checkpoints
 src/Queries.ipynb
-images/header.png
 src/__pycache__/
 src/login.py
