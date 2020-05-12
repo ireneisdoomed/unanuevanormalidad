@@ -23,6 +23,7 @@ if len(code) == 5:
             info = open("data/fase0.md", "r")
             st.markdown(info.read())
     except Exception:
+        print(Exception)
         st.write("🚫 Este código postal no es válido. Por favor, vuelve a intentarlo.")
     
 elif len(code) != 0 and len(code) != 5:

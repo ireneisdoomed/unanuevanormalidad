@@ -7,7 +7,7 @@ load_dotenv()
 username = os.getenv("username")
 pssw = os.getenv("pssw")
 
-client = MongoClient(f"mongodb+srv://{username}:{pssw}@cluster0-bovas.mongodb.net/unanuevanormalidad")
+client = MongoClient(f"mongodb+srv://{username}:{pssw}@cluster0-bovas.mongodb.net/unanuevanormalidad?retryWrites=true&w=majority")
 
 db = client.get_database()
 
