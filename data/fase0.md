@@ -16,7 +16,7 @@
 
 ### Consumo 🛒🍒
 
-- Ir a la peluquería o a un comercio pequeño _siempre que sea con cita previa_.
+- Ir a la peluquería o a un comercio pequeño _ahora sin cita previa_.
 
 - Ir a tu bar/restaurante favorito a recoger un pedido.
 
@@ -31,10 +31,14 @@
 
 > __El resto siempre que no presenten síntomas__: de 6 a 10:00h y de 20 a 23:00h.
 
+- Los deportistas profesionales y federados podrán entrenar individualmente y acudir a centros de alto rendimiento.
+
 ### Otros 🤖🚀
 
 - Hacer obras en inmuebles siempre que estén vacíos.
 - Ir a cuidar el huerto siempre que sea dentro de tu municipio.
+- Acudir a lugares de culto religioso siempre que no se supere el 30% del aforo.
+- Acudir a velatorios hasta un máximo de 10 personas.
 
 ---
 

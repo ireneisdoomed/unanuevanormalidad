@@ -16,16 +16,17 @@
 
 - Ir a un hotel, aunque no se permite el uso de sus zonas comunes.
 
+- Tomarte algo en una **terraza** si encuentras sitio. Sólo se podrá ocupar la mitad de las mesas.
+
 ### Consumo 🛒🍒
-- Comprar en el mercado al aire libre siempre que no se supere el 30% del aforo.
 
 - Ir a comprar en aquellos comercios menores de 400 metros cuadrados sin cita previa. El aforo máximo de estas tiendas será del 30%.
+
+- Comprar en mercados al aire libre siempre que no se supere el 30% del aforo.
 
 ### Ocio 🍺🎭
 
 - Quedar en tu casa o en la calle hasta con 10 personas. Manteniendo distancia de seguridad de 2 metros y medidas de higiene.
-
-- Tomarte algo en una terraza si encuentras sitio. Sólo se podrá ocupar la mitad de las mesas de las terrazas.
 
 - Ir al museo o a cualquier espectáculo cultural siempre que no se supere el 30% del aforo.
 
