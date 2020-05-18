@@ -1,4 +1,4 @@
-# ¡Estás en la fase 0!
+# ¡Estás en la fase 0 (y es algo más laxa)!
 
 ![alt text](https://media.giphy.com/media/DTAHkWd44hiKs/giphy.gif "Casi!")
 
@@ -35,6 +35,7 @@
 
 ### Otros 🤖🚀
 
+- Las instalaciones científicas.
 - Hacer obras en inmuebles siempre que estén vacíos.
 - Ir a cuidar el huerto siempre que sea dentro de tu municipio.
 - Acudir a lugares de culto religioso siempre que no se supere el 30% del aforo.
@@ -46,4 +47,4 @@
 > 🚧 **Recuerda que toda medida de seguridad y prevención es poca. Nos jugamos mucho, ¡sé consciente!**
 
 
-¿Tienes dudas? [Aquí](https://www.ideal.es/sociedad/acciones-puedes-fase-cero-20200510101645-nt.html?ref=https:%2F%2Fwww.google.com%2F) puedes encontrar más información 😊.
+¿Tienes dudas? [Aquí](https://elpais.com/sociedad/2020/05/07/actualidad/1588852756_386639.html) puedes encontrar más información 😊.

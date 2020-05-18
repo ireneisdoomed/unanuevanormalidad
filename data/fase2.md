@@ -72,4 +72,4 @@
 
 > 🚧 **Recuerda que toda medida de seguridad y prevención es poca. Nos jugamos mucho, ¡sé consciente!**
 
-¿Tienes dudas? [Aquí](https://civio.es/el-boe-nuestro-de-cada-dia/2020/05/16/la-fase-2-para-formentera-el-hierro-la-gomera-y-la-graciosa/) puedes encontrar más información. 😊
+¿Tienes dudas? [Aquí](https://civio.es/el-boe-nuestro-de-cada-dia/2020/05/16/la-fase-2-para-formentera-el-hierro-la-gomera-y-la-graciosa/) puedes encontrar más información. La orden ministerial la tienes [aquí](https://boe.es/boe/dias/2020/05/16/pdfs/BOE-A-2020-5088.pdf#BOEn). 😊
