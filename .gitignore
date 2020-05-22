@@ -4,3 +4,4 @@ data/Provincias.csv
 .ipynb_checkpoints
 src/Queries.ipynb
 src/__pycache__/
+src/.env
