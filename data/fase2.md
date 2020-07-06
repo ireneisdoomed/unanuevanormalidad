@@ -12,7 +12,7 @@
 
 - Ir en un mismo coche con la gente con la que vives.
 
-- Libertad de movimiento dentro de la provincia si toda tu provincia está en Fase 1.
+- Libertad de movimiento dentro de la provincia si toda tu provincia está en la misma fase.
 
 - Ir a un hotel, pudiendo ya hacer uso de sus zonas comunes.
 
